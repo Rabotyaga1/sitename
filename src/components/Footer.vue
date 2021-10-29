@@ -32,17 +32,20 @@ export default {
 <style lang="scss" scoped>
     .footer{
         width: 100%;
-        height: 181px;
+        height: 131px;
+        padding: 25px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: black;
+        margin-top: auto !important;
     }
     .footer__info{
         margin-left: 68px;
         display: flex;
         flex-direction: column;
-
+        justify-content: center;
+        height: 131px;
     }
     .logo{
         color: white;

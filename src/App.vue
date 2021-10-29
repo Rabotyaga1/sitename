@@ -1,6 +1,7 @@
 <template>
-  <div class="main">
+  <div class="app">
     <Header></Header>
+    <router-view></router-view>
     <Footer></Footer>
   </div>
 </template>
@@ -22,7 +23,19 @@ export default {
     margin: 0;
     padding: 0;
   }
-
+  .app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+  }
+  #app {
+    height: 100vh;
+  }
   @font-face {
     font-family: 'Rubik Mono One';
     src: url('./assets/fonts/RubikMonoOne-Regular.ttf');
